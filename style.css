@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: #555;
+    height: 100vh;
+    background-image: url('hyrule.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+    color: white;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+.title-input {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+.title-input label {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.title-input input {
+    width: 350px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 350px;
+    height: 200px;
+    font-size: 24px;
+    resize: none;
+}
+
+.btn-save {
+    display: flex;
+    justify-content: baseline;
+    margin-top: 20px;
+    margin-left: 10vw;
+}
+
+.btn-save input[type="submit"] {
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.create-folder {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-left: 10vw;
+}
+
+.create-folder label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.create-folder input[type="text"] {
+    width: 350px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.create-folder input[type="submit"] {
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.folder-list,
+.file-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.folder-list h2,
+.file-list h2 {
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.folder-list ul, .file-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.folder-list li, .file-list li {
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -70vh;
+    margin-right: 20vw;
+    
+}
+
+.folder-container {
+    margin-bottom: 20px;
+}
+
+.folder-container h2 {
+    margin-bottom: 5px;
+}
+
+.folder-container ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.folder-container li {
+    margin-bottom: 5px;
+}
+
+.folder-container button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin-right: 5px; 
+    cursor: pointer; 
+    transition-duration: 0.4s;
+}
+
+.folder-container button:hover {
+    background-color: #45a049;
+}
+

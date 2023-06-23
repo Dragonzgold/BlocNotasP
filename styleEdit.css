@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('miku.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    text-align: center;
+    margin-top: 20px;
+    width: 25rem; /* Ajusta el ancho de la card según tus necesidades */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.success-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.5s;
+    animation: fadeOut 5s forwards;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btnUpdate{
+    background-color: rgb(62, 129, 212);
+    color: aliceblue;
+}
+
+.btnAtras{
+    background-color: rgb(164, 164, 164);
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
